@@ -4,216 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nemis Tili</title>
+  <title>Yuksalish Farg'ona</title>
   <style>
-    a {
-      text-decoration: none;
-      color: white;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: white;
-      font-family: Montserrat, sans-serif;
-      font-weight: 400;
-    }
-
-    a,
-    li,
-    ol,
-    ul {
-      list-style: none;
-      text-decoration: none;
-    }
-
-
-
-    .container {
-      max-width: 490px;
-      width: 100%;
-      margin: 0 auto;
-      padding-top: 0;
-      display: flex;
-      flex-direction: column;
-      font-family: sans-serif;
-      position: relative;
-    }
-
-    .header {
-      background-color: white;
-      border-bottom: 1px solid #01A3D4;
-      border-radius: 0 0 24px 24px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 16px;
-      margin-bottom: 13px;
-    }
-
-    .header__date {
-      font-family: header, sans-serif;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      flex-shrink: 0;
-      padding: 5px 10px;
-      border: 1px solid #01A3D4;
-      border-radius: 20px;
-      display: flex;
-      align-items: center;
-    }
-
-    .date__inner {
-      padding: 0;
-    }
-
-
-    .date__inner-title {
-      font-family: "Kuunari", sans-serif;
-      font-size: clamp(22px, 7vw, 30px);
-      line-height: 120%;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-bottom: 18px;
-      text-align: center;
-    }
-
-    .date__inner-title span {
-      color: #DD0000;
-      font-size: clamp(31px, 9vw, 42px);
-    }
-
-    .gift {
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      margin-bottom: 13px;
-    }
-
-    .gift__title {
-      font-family: Inter, sans-serif;
-      font-weight: 600;
-      font-size: clamp(16px, 5vw, 18px);
-      line-height: 125%;
-      color: #DD0000;
-    }
-
-    .date__inner-list {
-      margin-bottom: 30px;
-    }
-
-    .date__inner-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-
-    .date__inner-item p {
-      font-family: Inter, sans-serif;
-      font-weight: 400;
-      font-size: clamp(12px, 4vw, 14px);
-      line-height: 130%;
-    }
-
-    .date__inner-item span {
-      font-weight: 600;
-    }
-
-    .date__img {
-      max-width: 267px;
-      width: 100%;
-      height: auto;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      z-index: 15;
-      padding: 0;
-    }
-
-    .date__bottom-btn {
-      background: linear-gradient(267.14deg, #DD0000 3.93%, #FF5353 50.12%, #DD0000 96.31%);
-      border: none;
-      cursor: pointer;
-      border-radius: 15px;
-      color: white;
-      box-shadow: 0px 6px 0px 0px #990001;
-      padding: 35px 0;
-      max-width: 388px;
-      width: 100%;
-      font-family: Inter, sans-serif;
-      font-weight: 700;
-      font-size: 24px;
-      margin-left: auto;
-      margin-right: auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      line-height: 120%;
-      text-align: center;
-      text-transform: uppercase;
-      margin-bottom: 35px;
-    }
-
-    .date__home {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      max-width: 368px;
-      width: 100%;
-    }
-
-    .free__text {
-      font-family: Inter, sans-serif;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 120%;
-      text-align: center;
-      margin-bottom: 29px;
-    }
-
-    .date__timer {
-      font-weight: 800;
-    }
-
-    .speaker__bg {
-      position: absolute;
-      bottom: 0;
-      max-width: 497px;
-      width: 100%;
-    }
-
-    @media (max-width:420px) {
-      .free__text {
-        font-size: 16px;
-      }
-
-
-      .header__date {
-        font-size: 13px;
-        padding: 4px 8px;
-      }
-
-    }
-
-    @media (max-width:340px) {
-      .date__bottom-btn {
-        padding: 30px 0;
-        font-size: 23px;
-      }
-
-      .date__inner-title span {
-        font-size: 28px;
-      }
-    }
+a {text-decoration: none;color: white;}* {margin: 0;padding: 0;box-sizing: border-box;}body {background-color: white;font-family: Montserrat, sans-serif;font-weight: 400;position: relative;}a, li, ol, ul {list-style: none;text-decoration: none;}.container {max-width: 490px;width: 100%;margin: 0 auto;padding-top: 0;display: flex;flex-direction: column;font-family: sans-serif;position: relative;}.header {background-color: white;border-bottom: 1px solid #01A3D4;border-radius: 0 0 24px 24px;width: 100%;display: flex;align-items: center;justify-content: center;gap: 10px;padding: 16px;margin-bottom: 13px;}.header__date {font-family: header, sans-serif;font-weight: 500;font-size: 14px;line-height: 16px;flex-shrink: 0;padding: 5px 10px;border: 1px solid #01A3D4;border-radius: 20px;display: flex;align-items: center;}.date__inner {padding: 0;}.date__inner-title {font-family: "Kuunari", sans-serif;font-size: clamp(22px, 7vw, 30px);line-height: 120%;font-weight: 700;text-transform: uppercase;margin-bottom: 18px;text-align: center;}.date__inner-title span {color: #DD0000;font-size: clamp(31px, 9vw, 42px);}.gift {display: flex;align-items: center;gap: 7px;margin-bottom: 13px;}.gift__title {font-family: Inter, sans-serif;font-weight: 600;font-size: clamp(16px, 5vw, 18px);line-height: 125%;color: #DD0000;}.date__inner-list {margin-bottom: 30px;}.date__inner-item {display: flex;align-items: center;gap: 10px;margin-bottom: 10px;}.date__inner-item p {font-family: Inter, sans-serif;font-weight: 400;font-size: 14px;line-height: 130%;}.date__inner-item span {font-weight: 600;}.date__bg {background-image: url(./images/bg.avif);background-repeat: no-repeat;background-size: cover;max-width: 490px;width: 100%;}.date__img {max-width: 267px;width: 100%;height: auto;margin: 0 auto;display: flex;align-items: center;justify-content: center;position: relative;z-index: 15;padding: 0;}.date__bottom-btn {background: linear-gradient(267.14deg, #DD0000 3.93%, #FF5353 50.12%, #DD0000 96.31%);border: none;cursor: pointer;border-radius: 15px;color: white;box-shadow: 0px 6px 0px 0px #990001;padding: 35px 0;max-width: 388px;width: 100%;font-family: Inter, sans-serif;font-weight: 700;font-size: 24px;margin-left: auto;margin-right: auto;display: flex;align-items: center;justify-content: center;line-height: 120%;text-align: center;text-transform: uppercase;margin-bottom: 35px;}.date__home {display: grid;grid-template-columns: repeat(2, 1fr);max-width: 368px;width: 100%;gap: clamp(20px, 6vw, 45px);margin: 0 auto;margin-bottom: 28px;row-gap: clamp(10px, 6vw, 25px);padding: 0 10px;}.date__home-img {box-shadow: 0px 4px 20px 0px #29292940;border-radius: 20px;object-fit: cover;width: 100%;flex-shrink: 0;}.free__text {font-family: Inter, sans-serif;font-weight: 700;font-size: 20px;line-height: 120%;text-align: center;margin-bottom: 29px;}.date__timer {font-weight: 800;}.speaker__bg {position: absolute;bottom: 0;max-width: 497px;width: 100%;}.date__bg-info {background-color: #0693FF;border-radius: 10px;padding: 10px;color: white;text-align: center;max-width: 361px;margin: 0 auto;width: 100%;position: absolute;margin-top: -40px;position: relative;margin-bottom: 18px;z-index: 20;}.date__bg-info--text {font-family: Inter, sans-serif;font-weight: 600;font-size: clamp(16px, 5vw, 20px);line-height: 130%;text-align: center;}@media (max-width:420px) {.free__text {font-size: 16px;}.header__date {font-size: 13px;padding: 4px 8px;}.date__inner-item p {font-size: 11px;}}@media (max-width:340px) {.date__bottom-btn {padding: 30px 0;font-size: 23px;}.date__inner-title span {font-size: 28px;}.date__inner-item p {font-size: 10px;}}
   </style>
   <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
   <noscript>
@@ -274,12 +67,27 @@
 
         </div>
       </div>
+
+
       <p class="free__text registerBtn">
         Bepul qatnashishga ulguring → <span id="timer">02:00</span>
       </p>
 
-      <img src="./images/speaker.avif" alt="Invertor rasmi" decoding="async" loading="lazy" class="date__img"
-        width="267" height="351">
+      <div class="" style="position: relative; ">
+        <div class="date__bg">
+          <img src="./images/speaker.avif" alt="Invertor rasmi" decoding="async" loading="lazy" class="date__img"
+            width="267" height="351">
+        </div>
+
+        <div class="" style="padding: 0 10px;">
+
+          <div class="date__bg-info">
+            <p class="date__bg-info--text">Agar boshlang'ich to'lov bilan xonadon xarid qiladigan bo'lsangiz
+              Mebellarigacha
+              qo'yib beramiz!</p>
+            </div>
+          </div>
+      </div>
     </div>
 
     <div class="date__home">
@@ -302,7 +110,6 @@
     <script defer src="../js/app.js"></script>
     <script defer src="../js/phoneFormatter.js"></script>
     <script defer src="../js/thankYou.js"></script>
-
 </body>
 
 </html>
